@@ -1,0 +1,194 @@
+#!/bin/bash
+
+# 3336 - zm
+# 3333 - kostroma
+# 3332 - public
+# 3335 - aim
+# 7303 - csdm
+# 3334 - gungame
+
+serv=3334
+
+numb=0
+
+list[0]=cornholion1%40yandex.ru
+list[1]=cornholion2%40yandex.ru
+list[2]=gosdep1%40yandex.ru
+list[3]=gosdep2%40yandex.ru
+list[4]=fillinimanchini1%40yandex.ru
+list[5]=fillinimanchini2%40yandex.ru
+list[6]=fillinimanchini3%40yandex.ru
+list[7]=fillinimanchini4%40yandex.ru
+list[8]=gamerboy1%40yandex.ru
+list[9]=gamerboy2%40yandex.ru
+list[10]=gamerboy3%40yandex.ru
+list[11]=gamerboy4%40yandex.ru
+list[12]=gamerboy5%40yandex.ru
+list[13]=activebot1%40yandex.ru
+list[14]=activebot2%40yandex.ru
+list[15]=activebot3%40yandex.ru
+list[16]=activebot4%40yandex.ru
+list[17]=activebot5%40yandex.ru
+list[18]=activebot6%40yandex.ru
+list[19]=littlebadboy1%40yandex.ru
+list[20]=littlebadboy2%40yandex.ru
+list[21]=littlebadboy3%40yandex.ru
+list[22]=littlebadboy4%40yandex.ru
+list[23]=littlebadboy5%40yandex.ru
+list[24]=littlebadboy6%40yandex.ru
+list[25]=littlebadboy7%40yandex.ru
+list[26]=arkanoidbyandroid1%40yandex.ru
+list[27]=arkanoidbyandroid2%40yandex.ru
+list[28]=arkanoidbyandroid3%40yandex.ru
+list[29]=ddenis201%40yandex.ru
+list[30]=oscarcat1%40yandex.ru
+list[31]=oscarcat2%40yandex.ru
+list[32]=oscarcat3%40yandex.ru
+list[33]=oscarcat4%40yandex.ru
+list[34]=oscarcat5%40yandex.ru
+list[35]=octocats1%40yandex.ru
+list[36]=octocats2%40yandex.ru
+list[37]=octocats3%40yandex.ru
+list[38]=dien.moroz%40mail.ru
+list[39]=bien.moroz%40mail.ru
+list[40]=kien.moroz%40mail.ru
+list[41]=moroz.din%40mail.ru
+list[42]=siem.moroz%40mail.ru
+list[43]=pavlovskiyroma%40mail.ru
+list[44]=mandy.andy%40mail.ru
+list[45]=andy.wilkins%40mail.ru
+list[46]=lynn96%40mail.ru
+list[47]=lefondre%40tut.by
+list[48]=pilkington%40tut.by
+list[49]=pilkington2%40tut.by
+list[50]=dimastiy2006%40mail.ru
+list[51]=hnoe%40hnoe.ru
+list[52]=papays1%40yandex.ru
+list[53]=papays2%40yandex.ru
+list[54]=papays3%40yandex.ru
+list[55]=papays4%40yandex.ru
+list[56]=vasedg1%40yandex.ru
+list[57]=vasedg2%40yandex.ru
+list[58]=vasedg3%40yandex.ru
+list[59]=qasews1%40yandex.ru
+list[60]=qasews2%40yandex.ru
+list[61]=qasews3%40yandex.ru
+list[62]=qasews4%40yandex.ru
+list[63]=qasews5%40yandex.ru
+list[64]=qasews6%40yandex.ru
+
+pass[0]=cornholion1%40yandex.ru
+pass[1]=cornholion2%40yandex.ru
+pass[2]=gosdep1%40yandex.ru
+pass[3]=gosdep2%40yandex.ru
+pass[4]=fillinimanchini1%40yandex.ru
+pass[5]=fillinimanchini2%40yandex.ru
+pass[6]=fillinimanchini3%40yandex.ru
+pass[7]=fillinimanchini4%40yandex.ru
+pass[8]=gamerboy1%40yandex.ru
+pass[9]=gamerboy2%40yandex.ru
+pass[10]=gamerboy3%40yandex.ru
+pass[11]=gamerboy4%40yandex.ru
+pass[12]=gamerboy5%40yandex.ru
+pass[13]=activebot1%40yandex.ru
+pass[14]=activebot2%40yandex.ru
+pass[15]=activebot3%40yandex.ru
+pass[16]=activebot4%40yandex.ru
+pass[17]=activebot5%40yandex.ru
+pass[18]=activebot6%40yandex.ru
+pass[19]=littlebadboy1%40yandex.ru
+pass[20]=littlebadboy2%40yandex.ru
+pass[21]=littlebadboy3%40yandex.ru
+pass[22]=littlebadboy4%40yandex.ru
+pass[23]=littlebadboy5%40yandex.ru
+pass[24]=littlebadboy6%40yandex.ru
+pass[25]=littlebadboy7%40yandex.ru
+pass[26]=arkanoidbyandroid1%40yandex.ru
+pass[27]=arkanoidbyandroid2%40yandex.ru
+pass[28]=arkanoidbyandroid3%40yandex.ru
+pass[29]=ddenis201%40yandex.ru
+pass[30]=oscarcat1%40yandex.ru
+pass[31]=oscarcat2%40yandex.ru
+pass[32]=oscarcat3%40yandex.ru
+pass[33]=oscarcat4%40yandex.ru
+pass[34]=oscarcat5%40yandex.ru
+pass[35]=octocats1%40yandex.ru
+pass[36]=octocats2%40yandex.ru
+pass[37]=octocats3%40yandex.ru
+pass[38]=benmorozov
+pass[39]=benmorozov
+pass[40]=benmorozov
+pass[41]=benmorozov
+pass[42]=benmorozov
+pass[43]=31101996romapes
+pass[44]=31101996romapes
+pass[45]=31101996romapes
+pass[46]=31101996romapes
+pass[47]=31101996romapes
+pass[48]=31101996romapes
+pass[49]=31101996romapes
+pass[50]=1qaz2wsx3edc
+pass[51]=1qaz2wsx3edc
+pass[52]=papays1%40yandex.ru
+pass[53]=papays2%40yandex.ru
+pass[54]=papays3%40yandex.ru
+pass[55]=papays4%40yandex.ru
+pass[56]=vasedg1%40yandex.ru
+pass[57]=vasedg2%40yandex.ru
+pass[58]=vasedg3%40yandex.ru
+pass[59]=qasews1%40yandex.ru
+pass[60]=qasews2%40yandex.ru
+pass[61]=qasews3%40yandex.ru
+pass[62]=qasews4%40yandex.ru
+pass[63]=qasews5%40yandex.ru
+pass[64]=qasews6%40yandex.ru
+
+func () {
+  tor &
+
+  curl \
+    --socks5 127.0.0.1:9050 \
+    -D _cookieX http://serverov.net/
+
+  echo 'CURL1 complete'
+
+  curl \
+    --socks5 127.0.0.1:9050 \
+    -b _cookieX \
+    -A 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)' \
+    -L \
+    -d 'email='${list[$numb]}'&password='${pass[$numb]}'&vhod=%D0%92%D0%BE%D0%B9%D1%82%D0%B8%21&remember_me=true' \
+    http://serverov.net/authorization.php
+
+  echo 'CURL2 complete'
+
+  curl \
+    --socks5 127.0.0.1:9050 \
+    -b _cookieX \
+    -A 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)' \
+    'http://serverov.net/rating.php?id='$serv'&add=+1' \
+    > _message
+
+  echo 'CURL3 complete'
+
+  if [ -e _message ]
+  then
+    if grep 'Спасибо за Ваш голос' _message
+    then
+      let numb=numb+1
+      echo ${list[$numb]} >> _log
+      rm _message
+    fi
+  fi
+
+  killall tor
+
+  if [ ${list[$numb]} ]
+  then func
+  else
+    rm _cookieX
+    echo 'mission completed!'
+  fi
+}
+
+func
