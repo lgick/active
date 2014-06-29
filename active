@@ -178,12 +178,6 @@ func () {
       let numb=numb+1
       echo ${list[$numb]} >> _log
       rm _message
-    else
-      if grep 'Вы уже голосовали!' _message
-      then
-        echo ${list[$numb]} 'уже голосовал сегодня!'
-        return
-      fi
     fi
   fi
 
